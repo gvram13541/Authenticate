@@ -118,11 +118,11 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'guna955reddy@gmail.com'
-EMAIL_HOST_PASSWORD = 'iovs jtbj ibop melc'
-DEFAULT_FROM_EMAIL = 'guna955reddy@gmail.com'
+EMAIL_HOST_USER = 'yourgamil@gmail.com'
+EMAIL_HOST_PASSWORD = 'password'
+DEFAULT_FROM_EMAIL = 'yourgamil@gmail.com'
 
 # MSG91 Settings
-MSG91_AUTH_KEY = '434355AV5VsoDYD667329541P1'  # Get this from MSG91 dashboard
-MSG91_TEMPLATE_ID = '6732eac2d6fc053b625f2ee4'   # Get this from MSG91 dashboard
-MSG91_SENDER_ID = 'Django123'               # Your approved sender ID
+MSG91_AUTH_KEY = 'apikey'  # Get this from MSG91 dashboard
+MSG91_TEMPLATE_ID = 'tempid'   # Get this from MSG91 dashboard
+MSG91_SENDER_ID = 'sendid'               # Your approved sender ID
